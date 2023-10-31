@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            prefHeight="400.0"
+            prefWidth="600.0">
+    <center>
+        <HBox style="-fx-background-color:blue" maxWidth="200" maxHeight="200">
+            <Label fx:id="welcomeLabel">Welcome to javafx Spring</Label>
+            <VBox style="-fx-background-color:red" maxWidth="300" maxHeight="200" ></VBox>
+        </HBox>
+    </center>
+
+
+</BorderPane>
